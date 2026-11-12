@@ -1,0 +1,33 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Dataset & processed data
+dataset/
+raw_dataset/
+processed_dataset/
+processed_dummy/
+dummy_raw/
+
+# Model artifacts
+*.onnx
+*.pth
+
+# Plots / logs / images
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
